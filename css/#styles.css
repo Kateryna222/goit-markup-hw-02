@@ -1,0 +1,122 @@
+
+/* цвет основного текста  #2E2F42 */
+/* вторичный цвет основного текста #434455*/
+/* белый #FFFFFF*/
+/* акцент #4D5AE5*/
+/* вторичный цвет фона #F4F4FD */
+/* цвет адреса #434455 */
+/* цвет логотипа синий #4D5AE5 */
+/* цвет логотипа белый #F4F4FD */
+
+
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2E2F42;
+  --accent-color: #4D5AE5;
+  --primary-white-color: #FFFFFF;
+
+}
+
+
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
+
+}
+
+.header-logo {
+  color:
+}
+
+
+.list {
+  list-style: none;
+}
+
+.header-item {
+color: var(--title-text-color);
+}
+
+.header-link link {
+color: var(--primary-text-color);
+}
+
+.header-navigation {
+color: var(--primary-text-color);
+}
+.header-navigation .link:hover,
+.header-navigation .link:focus {
+color: var(--accent-color);
+}
+
+.hero-title {
+  color: var(--title-text-color);
+}
+
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+.section-hero {
+
+}
+
+/*projects*/
+.projects .title {
+color: var(--title-text-color);
+}
+.projects .item {
+color: var(--primary-text-color);
+}
+
+/* button*/
+.button {
+color: var(--title-text-color);
+background-color: var(--primary-white-color);
+}
+.button.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  
+}
+
+.button.secondary {
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
+}
+
+/*слоган*/
+-p
+.slogan {
+  color: #F4F4FD ;
+}
+
+/* 
+* {
+  box-sizing: border-box;
+}
+
+
+.menu {
+  display: flex;
+  gap: 8px;
+  
+  padding: 15px;
+  margin: 0;
+  list-style: none;
+  border-radius: 4px;
+  background-color: #2196f3;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+*/
+
+/*
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+/* identical to box height, or 120% */
