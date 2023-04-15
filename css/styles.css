@@ -21,7 +21,7 @@
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
 
 }
