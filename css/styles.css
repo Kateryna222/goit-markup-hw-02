@@ -40,7 +40,7 @@ font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
-
+text-decoration: none;
 
 
 
@@ -54,10 +54,10 @@ ul {
   list-style: none;
 }
 
-/* 
+ 
 a {
   text-decoration: none;
-} */
+}
 
 .header-item {
 color: var(--title-text-color);
@@ -69,7 +69,7 @@ color: var(--primary-text-color);
 
 .header-navigation {
 color: var(--accent-color);
-}
+text-decoration: none;}
 
 
 .header-navigation .link:hover,
@@ -83,12 +83,12 @@ background-color: var(--primary-white-color);
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
- 
-
+.oder {
+  background-color: var(--title-text-color);
+}
 
 .hero-title {
-  color: var(--primary-white-color);
-  background-color: var(--primary-text-color);
+  color: var(--primary-white-color);;
   font-weight: 400;
   font-size: 56px;
   line-height: 1.07;
@@ -148,7 +148,7 @@ font-family: inherit;
 /*footer*/
 
 #description {
-  color: #F4F4FD ;
+  color: var(--primary-white-color) ;
   background-color: var(--primary-text-color);
 }
 
