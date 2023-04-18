@@ -14,7 +14,8 @@
   --title-text-color: #2E2F42;
   --accent-color: #4D5AE5;
   --primary-white-color: #FFFFFF;
-  --change-color: #404bbf
+  --change-color: #404bbf;
+  --backgound-Team:#F4F4FD
 }
 
 
@@ -99,6 +100,8 @@ background-color: var(--primary-white-color);
 
 
 .section-title {
+
+
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 36px;
@@ -106,7 +109,9 @@ background-color: var(--primary-white-color);
   text-align: center;
   text-transform: capitalize;}
 
-
+.section.team {
+background-color: var(--backgound-Team);
+}
 
 /*projects*/
 .projects .title {
