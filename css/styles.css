@@ -56,7 +56,6 @@ color: var(--primary-text-color);
 font-style: normal;
 font-size: 16px;
 line-height: 1.5;
-
 }
 
 ul {
@@ -116,16 +115,25 @@ background-color: var(--primary-white-color);
   text-align: center;
 }
 
-
 .section-title {
-
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
-  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;}
+
+.feature.title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  list-style: none
+  }
+  .feature.text {
+    color: var(--primary-text-color);
+    text-align: center;
+  }
 
 .section.team {
 color: var(--title-text-color);
@@ -138,8 +146,7 @@ color: var(--title-text-color);
 
 .text {
 color: var(--primary-text-color);
-
-  text-align: center;
+text-align: center;
 
 }
 
