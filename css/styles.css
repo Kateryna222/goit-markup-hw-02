@@ -125,13 +125,14 @@ background-color: var(--primary-white-color);
   letter-spacing: 0.04em;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  cursor: pointer; 
+  
 }
 
 .hero-button .link:hover,
 .hero-button .link:focus {
 color: var(--primary-white-color);
 background-color: var(--change-color);
+cursor: pointer; 
 }
 .oder {
  background-color: var(--title-text-color);
