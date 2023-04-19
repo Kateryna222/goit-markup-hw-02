@@ -107,23 +107,33 @@ background-color: var(--primary-white-color);
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-  
-
 }
 
 
 .section-title {
 
-
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;}
 
 .section.team {
-background-color: var(--backgound-Team);
+color: var(--title-text-color);
+  background-color: var(--primary-white-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+}
+
+.text {
+color: var(--primary-text-color);
+
+  text-align: center;
+
 }
 
 /*projects*/
@@ -132,7 +142,8 @@ color: var(--title-text-color);
 
   font-weight: 500;
   font-size: 20px;
-  line-height: 1,2;
+  line-height: 1.2;
+  letter-spacing: 0.02em
   
 }
 .projects.item {
