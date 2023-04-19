@@ -84,7 +84,10 @@ background-color: var(--primary-white-color)
 
 .header-link link {
 color: var(--primary-text-color);
-}
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;}
 
 .header-navigation {
 color: var(--title-text-color);
@@ -102,14 +105,6 @@ color: var(--change-color);
 background-color: var(--primary-white-color);
 }
 
- .hero-btn .link:hover,
- .hero-btn .link:focus {
-  color: var(--change-color);
-  background-color: var(--accent-color);
-}
-.oder {
-  background-color: var(--title-text-color);
-}
 
 .hero-title {
   color: var(--primary-white-color);;
@@ -117,6 +112,29 @@ background-color: var(--primary-white-color);
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em
+}
+
+.hero.button {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--primary-white-color);
+  background-color: var(--change-color);
+  cursor: pointer; 
+}
+
+.hero-button .link:hover,
+.hero-button .link:focus {
+ color: var(--change-color);
+ background-color: var(--accent-color);
+}
+.oder {
+ background-color: var(--title-text-color);
 }
 
 .section-title {
@@ -169,19 +187,24 @@ color: var(--primary-text-color);
 }
 
 
+
+
 /* button*/
 .button {
-color: var(--title-text-color);
+color: var(--t);
 background-color: var(--primary-white-color);
 font-family: inherit;
   font-weight: 500;
-  
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
 }
 
-* .button.primary {
+
+
+
+
+.button.primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   
@@ -191,6 +214,8 @@ font-family: inherit;
   color: var(--accent-color);
   background-color: var(--primary-white-color);
 } */
+
+
 
 /*footer*/
 
