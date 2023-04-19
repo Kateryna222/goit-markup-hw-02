@@ -115,7 +115,7 @@ background-color: var(--primary-white-color);
   letter-spacing: 0.02em
 }
 
-.hero.button {
+.hero-button {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
