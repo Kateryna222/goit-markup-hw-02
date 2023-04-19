@@ -130,7 +130,8 @@ background-color: var(--primary-white-color);
 
 .hero-button .link:hover,
 .hero-button .link:focus {
- background-color: var(--change-color);
+color: var(--primary-text-color);
+background-color: var(--change-color);
 }
 .oder {
  background-color: var(--title-text-color);
