@@ -183,10 +183,11 @@ color: var(--title-text-color);
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  list-style: none;
+  
 }
 .projects.item {
 color: var(--primary-text-color);
+list-style: none;
 }
 
 
