@@ -136,6 +136,7 @@ cursor: pointer;
 }
 .oder {
  background-color: var(--title-text-color);
+ list-style: none;
 }
 
 
@@ -144,6 +145,7 @@ cursor: pointer;
   font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
+
   text-align: center;
   text-transform: capitalize;}
 
@@ -153,6 +155,8 @@ cursor: pointer;
   font-size: 20px;
   line-height: 1.2;
   list-style: none;
+  letter-spacing: 0.02em;
+
   }
   .feature .text {
     color: var(--primary-text-color);
@@ -160,6 +164,28 @@ cursor: pointer;
     text-align: center;
   }
 
+
+
+/*projects*/
+.projects.title {
+  color: var(--title-text-color;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;   
+  }
+  
+  .projects {
+    list-style: none
+  }
+  .projects.item {
+  color: var(--primary-text-color);
+  list-style: none;
+  }
+
+  /* our team */
 .section .team {
 color: var(--title-text-color);
   background-color: var(--primary-white-color);
@@ -175,20 +201,6 @@ text-align: center;
 
 }
 
-/*projects*/
-.projects.title {
-color: var(--title-text-color);
-
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  
-}
-.projects.item {
-color: var(--primary-text-color);
-list-style: none;
-}
 
 
 
