@@ -30,6 +30,7 @@ body {
 
 }
 
+
 header {
 font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -167,7 +168,7 @@ cursor: pointer;
 
 
 /*projects*/
-.projects.title {
+.section-projects .title {
   color: var(--title-text-color;
   font-weight: 700;
   font-size: 36px;
@@ -180,13 +181,13 @@ cursor: pointer;
   .projects {
     list-style: none
   }
-  .projects.item {
+  .projects .item {
   color: var(--primary-text-color);
   list-style: none;
   }
 
   /* our team */
-.section .team {
+.section-team .team {
 color: var(--title-text-color);
   background-color: var(--primary-white-color);
   font-style: normal;
@@ -195,7 +196,7 @@ color: var(--title-text-color);
   line-height: 1.11;
 }
 
-.text {
+.section-team.text {
 color: var(--primary-text-color);
 text-align: center;
 
