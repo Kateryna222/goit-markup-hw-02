@@ -159,12 +159,11 @@ cursor: pointer;
   letter-spacing: 0.02em;
 
   }
-  .feature .text {
+.feature .text {
     color: var(--primary-text-color);
     line-height: 1.5;
     text-align: center;
   }
-
 
 
 /*projects*/
@@ -240,6 +239,14 @@ font-family: inherit;
   color: var(--primary-white-color) ;
   background-color: var(--primary-text-color);
 }
+
+
+
+
+
+
+
+
 
 /* 
 * {
