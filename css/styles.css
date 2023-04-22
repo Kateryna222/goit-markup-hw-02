@@ -110,6 +110,11 @@ color: var(--change-color);
 background-color: var(--primary-white-color);
 }
 
+.header-mail link, 
+.header-phone link {
+color: var(--primary-text-color);
+}
+
 
 .hero-title {
   color: var(--primary-white-color);
