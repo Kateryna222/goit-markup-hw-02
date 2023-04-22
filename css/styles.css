@@ -42,7 +42,7 @@ font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
 
-.header-logo .link {
+.header-logo link {
 color: var(--title-text-color);
 font-family: "Raleway", sans-serif;
 font-weight: 800;
