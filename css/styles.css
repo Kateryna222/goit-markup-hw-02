@@ -9,13 +9,14 @@
 /* цвет логотипа белый #F4F4FD */
 
 
+
 :root {
   --primary-text-color: #434455;
   --title-text-color: #2E2F42;
   --accent-color: #4D5AE5;
   --primary-white-color: #FFFFFF;
   --change-color: #404bbf;
-  --backgound-Team:#F4F4FD
+  --backgound-Team-cloud:#F4F4FD;
 }
 
 
@@ -180,7 +181,7 @@ cursor: pointer;
 
 /*projects*/
 .section-projects .title {
-  color: var(--title-text-color;
+  color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -207,7 +208,7 @@ color: var(--title-text-color);
   line-height: 1.11;
 }
 
-.section-team.text {
+.section-team .text {
 color: var(--primary-text-color);
 text-align: center;
 
@@ -232,13 +233,14 @@ font-family: inherit;
 
 
 
-.button.primary {
+
+.button .botton.primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   
 }
 
-.button.secondary {
+.botton .button.secondary {
   color: var(--accent-color);
   background-color: var(--primary-white-color);
 } */
@@ -246,6 +248,25 @@ font-family: inherit;
 
 
 /*footer*/
+
+.footer {
+  background-color: var(--title-text-color)
+}
+ .footer .footer-logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17px;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase; 
+  color: var(--accent-color);
+ }
+
+ .footer .logo-studio {
+  color: var(--backgound-Team-cloud);
+ }
 
 #description {
   color: var(--primary-white-color) ;
