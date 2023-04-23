@@ -265,9 +265,9 @@ font-family: inherit;
   color: var(--accent-color);
  }
 
- /* .footer-logo link .logo-studio {
+ .footer .logo-studio {
   color: var(--backgound-Team-cloud);
- } */
+ }
 
 #description {
   color: var(--primary-white-color) ;
