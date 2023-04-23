@@ -250,10 +250,10 @@ font-family: inherit;
 /*footer*/
 
 .footer {
-  
   background-color: var(--title-text-color)
 }
- .footer .footer-logo link {
+
+.footer .logo-link {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 800;
@@ -265,9 +265,9 @@ font-family: inherit;
   color: var(--accent-color);
  }
 
- .footer-logo link .logo-studio {
+ /* .footer-logo link .logo-studio {
   color: var(--backgound-Team-cloud);
- }
+ } */
 
 #description {
   color: var(--primary-white-color) ;
