@@ -148,6 +148,7 @@ color: var(--primary-white-color);
 background-color: var(--change-color);
 cursor: pointer; 
 }
+
 .oder {
  background-color: var(--title-text-color);
  list-style: none;
@@ -163,7 +164,7 @@ cursor: pointer;
   text-align: center;
   text-transform: capitalize;}
 
-.feature .title {
+.feature-list .title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 20px;
@@ -172,7 +173,7 @@ cursor: pointer;
   letter-spacing: 0.02em;
 
   }
-.feature .text {
+.feature-list .text {
     color: var(--primary-text-color);
     line-height: 1.5;
     text-align: center;
@@ -222,6 +223,7 @@ text-align: center;
 .button {
 color: var(--t);
 background-color: var(--primary-white-color);
+
 font-family: inherit;
   font-weight: 500;
   align-items: center;
