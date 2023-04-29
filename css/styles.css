@@ -53,8 +53,16 @@ letter-spacing: 0.03em;
 text-decoration: none;
 }
 
-.studio {
-color: var(--title-text-color);
+.header-logo second {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1,17;
+    display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;color: var(--title-text-color);
 }
 
 .header-adress {
@@ -129,7 +137,7 @@ color: var(--primary-text-color);
   letter-spacing: 0.02em;
 }
 
-.hero-btn {
+.hero-btn list{
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -232,20 +240,12 @@ font-family: inherit;
 }
 
 
-
-
-
-
+hero-btn .btn {
 .button .botton.primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   
 }
-
-.botton .button.secondary {
-  color: var(--accent-color);
-  background-color: var(--primary-white-color);
-} */
 
 
 
@@ -279,6 +279,19 @@ font-family: inherit;
 
 
 
+
+/* .button .botton.primary {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  
+}
+
+
+.botton .button.secondary {
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
+} */
+*/
 
 
 
