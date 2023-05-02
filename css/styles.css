@@ -32,6 +32,22 @@ body {
 }
 
 
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link {
+text-decoration: none;  
+}
+
+button {
+  cursor: pointer;
+}
+
 header {
 font-family: "Raleway", sans-serif;
   font-style: normal;
@@ -43,7 +59,7 @@ font-family: "Raleway", sans-serif;
   text-transform: uppercase;
 }
 
-.header-logo link {
+.header-logo{
 color: var(--title-text-color);
 font-family: "Raleway", sans-serif;
 font-weight: 800;
@@ -53,7 +69,22 @@ letter-spacing: 0.03em;
 text-decoration: none;
 }
 
-.header-logo second {
+
+.header-logo-first {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1,17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--accent-color)
+
+  
+
+}
+
+.header-logo-second {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 800;
@@ -77,63 +108,55 @@ line-height: 1.5;
   list-style: none;
 } */
 
-.list {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-.link {
-text-decoration: none;  
-}
 
 button {
   cursor: pointer;
 }
+
+
+.header-navigation {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--title-text-color);} 
+  
+  .header-navigation:hover,
+  .header-navigation:focus {
+  color: var(--change-color);
+  background-color: var(--primary-white-color);
+  }
+  
+  .header-mail {
+    color: var(--primary-text-color);  
+  
+  }
+  .header-phone {
+  color: var(--primary-text-color);
+  }
 
 .header-item {
 color: var(--title-text-color);
 letter-spacing: 0.02em;
 }
 
-.header-link link:hover,
-.header-link link:focus {
+.header-link{
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;}
+
+.header-link:hover,
+.header-link:focus {
 color: var(--change-color);
 background-color: var(--primary-white-color);
 }
 
-.header-link link {
-color: var(--title-text-color);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;}
 
-.header-navigation {
-color: var(--title-text-color);
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
 
-text-decoration: none;
-color: var(--title-text-color);} 
-
-.header-navigation .link:hover,
-.header-navigation .link:focus {
-color: var(--change-color);
-background-color: var(--primary-white-color);
-}
-
-.header-mail link {
-  color: var(--primary-text-color);  
-
-}
-.header-phone link {
-color: var(--primary-text-color);
-}
 
 
 .hero-title {
