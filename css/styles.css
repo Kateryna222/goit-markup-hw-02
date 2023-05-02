@@ -145,7 +145,7 @@ color: var(--primary-text-color);
   letter-spacing: 0.02em;
 }
 
-.hero-btn list{
+.hero-btn.list{
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -248,14 +248,34 @@ font-family: inherit;
 }
 
 
-hero-btn .btn {
-.button .botton.primary {
+.hero-btn.btn {
+  color: var(--primary-white-color); 
+  background-color: var(--accent-color);
+  
+}
+
+.hero-btn.list {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
   color: var(--primary-white-color);
   background-color: var(--accent-color);
   
 }
 
+.
 
+
+
+.hero-btn.btn .link:hover,
+.hero-btn.btn .link:focus {
+color: var(--primary-white-color);
+background-color: var(--change-color);
+cursor: pointer; 
 
 /*footer*/
 
