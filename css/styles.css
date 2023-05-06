@@ -137,7 +137,7 @@ button {
   
   }
 
-  .header-phone {
+.header-phone {
   color: var(--primary-text-color);
   }
 
@@ -162,6 +162,10 @@ background-color: var(--primary-white-color);
 }
 
 
+.hero-oder {
+  background-color: var(--title-text-color);
+  list-style: none;
+ }
 
 
 
@@ -208,27 +212,18 @@ background-color: var(--primary-white-color);
   cursor: pointer; 
 }
 
-
-
-.text-footer {
-
-
-} 
-
-.oder {
- background-color: var(--title-text-color);
- list-style: none;
-}
-
-
-.section .title {
+.section-title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 36px;
   line-height: 1.11;
 
   text-align: center;
-  text-transform: capitalize;}
+  text-transform: capitalize;
+  color: var(--title-text-color)
+}
+ 
+
 
 .feature-list .title {
   color: var(--title-text-color);
@@ -256,10 +251,10 @@ background-color: var(--primary-white-color);
   letter-spacing: 0.02em;
   text-transform: capitalize;   
   }
-  
+/*   
   .projects {
     list-style: none
-  }
+  } */
   .projects .item {
   color: var(--primary-text-color);
   list-style: none;
