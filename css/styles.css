@@ -216,6 +216,7 @@ background-color: var(--primary-white-color);
   background-color: var(--accent-color);  
 }
 
+
 .hero-btn:hover,
 .hero-btn:focus {
   color: var(--primary-white-color);
@@ -271,6 +272,12 @@ background-color: var(--primary-white-color);
   list-style: none;
   }
 
+
+  /* .about-gallery-img {
+    
+  } */
+
+
   /* our team */
 .section-team .team {
 color: var(--title-text-color);
@@ -324,9 +331,29 @@ text-align: center;
  }
 
 
+ .hero-btn-primary {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--accent-color);
+  background-color: var(--backgound-Team-cloud);  
+}
 
-
-
+.hero-btn-secondary {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--accent-color);
+  background-color: var(--backgound-Team-cloud);
+}
 /*   
  }
 #description {
