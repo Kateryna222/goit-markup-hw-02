@@ -237,15 +237,14 @@ background-color: var(--primary-white-color);
 
 
 /*projects*/
-  .section-projects .section-title { 
+.section-projects .section-title { 
   color: var(--title-text-color);
   }
-
-  .section-projects .projects {
+.section-projects .projects {
     list-style: none;
   } 
 
-  .section-projects .item {
+.section-projects .item {
   color: var(--primary-text-color);
   list-style: none;
   }
@@ -290,7 +289,7 @@ background-color: var(--primary-white-color);
   background-color: var(--title-text-color)
 }
 
-footer .footer-logo .link {
+.footer .footer-logo .link {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 800;
