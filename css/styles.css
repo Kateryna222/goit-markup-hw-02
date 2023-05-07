@@ -254,12 +254,12 @@ background-color: var(--primary-white-color);
     
   } */
 
-  /* our team */
-  .section-title {
+/* our team */
+.section-team .section-title {
   background-color: var(--backgound-Team-cloud);
 
   }
-.section-title .section-team {
+  .section-team .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -271,13 +271,12 @@ background-color: var(--primary-white-color);
   line-height: 1,2;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--title-text-color)
+  color: var(--title-text-color);
 }
 
 .team .text {
   color: var(--primary-text-color);
   text-align: center;
-
 }
 
 
