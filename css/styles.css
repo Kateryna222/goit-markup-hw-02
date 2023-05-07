@@ -60,7 +60,6 @@ text-transform: uppercase;
 }
 
 .header-logo {
-color: var(--title-text-color);
 font-family: "Raleway", sans-serif;
 font-weight: 800;
 font-size: 18px;
@@ -224,7 +223,8 @@ background-color: var(--primary-white-color);
     line-height: 1.2;
     list-style: none;
     letter-spacing: 0.02em;
-    color: var(--title-text-color);}
+    color: var(--title-text-color);
+  }
 
 /* Feature */
 
@@ -266,7 +266,7 @@ background-color: var(--primary-white-color);
 }
  
 .team .item {
-  background-color: var(--primary-white-color)
+  background-color: var(--primary-white-color);
 } 
 
 
@@ -281,10 +281,10 @@ background-color: var(--primary-white-color);
 /*footer*/
 
 .footer {
-  background-color: var(--title-text-color)
+  background-color: var(--title-text-color);
 }
 
-.footer-logo.link {
+.footer-logo {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 800;
@@ -298,18 +298,18 @@ background-color: var(--primary-white-color);
   
  }
 
-.footer-logo .footer-logo-second {
-  color: var(--backgound-Team-cloud)
+.footer-logo-second {
+  color: var(--backgound-Team-cloud);
 } 
 
-.footer .text{
+.footer-text {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--accent-color)
+  color: var(--accent-color);
  }
 
 
