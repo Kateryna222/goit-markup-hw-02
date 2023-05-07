@@ -255,18 +255,22 @@ background-color: var(--primary-white-color);
   } */
 
 /* our team */
-.section-team .section-title {
+.section-team {
   background-color: var(--backgound-Team-cloud);
 
   }
-  .section-team .section-title {
+.section-team .section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   color: var(--title-text-color);
-  
 }
-.team .titlle {
+ 
+.team .item {
+  background-color: var(--primary-white-color)
+} 
+
+.team .item .titlle {
   font-size: 20px;
   line-height: 1,2;
   text-align: center;
@@ -274,7 +278,7 @@ background-color: var(--primary-white-color);
   color: var(--title-text-color);
 }
 
-.team .text {
+.team .item .text {
   color: var(--primary-text-color);
   text-align: center;
 }
