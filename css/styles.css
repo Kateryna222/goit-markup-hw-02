@@ -270,10 +270,11 @@ background-color: var(--primary-white-color);
 } 
 
 
-
 .team .item .text {
-  color: var(--primary-text-color);
+  
+  line-height: 1.5;
   text-align: center;
+  color: var(--primary-text-color);
 }
 
 
