@@ -296,12 +296,13 @@ background-color: var(--primary-white-color);
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase; 
-  color: var(--backgound-Team-cloud);
   text-decoration: none;
+  color: var(--accent-color);
+  
  }
 
-.footer-logo-first {
-color: var(--accent-color);
+.footer-logo-second {
+color: var(--backgound-Team-cloud)
 } 
 
 .footer-text{
