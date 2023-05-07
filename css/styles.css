@@ -218,16 +218,16 @@ background-color: var(--primary-white-color);
   text-transform: capitalize;   
   }
 
+  title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    list-style: none;
+    letter-spacing: 0.02em;
+    color: var(--title-text-color);}
 
 /* Feature */
-.feature-list .title {
-  color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  list-style: none;
-  letter-spacing: 0.02em;
-  }
+
 
 .feature-list .text {
   color: var(--primary-text-color);
@@ -269,13 +269,7 @@ background-color: var(--primary-white-color);
   background-color: var(--primary-white-color)
 } 
 
-.team .item .titlle {
-  font-size: 20px;
-  line-height: 1,2;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--title-text-color);
-}
+
 
 .team .item .text {
   color: var(--primary-text-color);
