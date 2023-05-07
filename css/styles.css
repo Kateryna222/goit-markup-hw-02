@@ -284,7 +284,7 @@ background-color: var(--primary-white-color);
   background-color: var(--title-text-color)
 }
 
-.footer .footer-logo .link {
+.footer-logo .link {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 800;
@@ -298,8 +298,8 @@ background-color: var(--primary-white-color);
   
  }
 
- .footer-logo .footer-logo-second {
-color: var(--backgound-Team-cloud)
+.footer-logo .footer-logo-second {
+  color: var(--backgound-Team-cloud)
 } 
 
 .footer .text{
