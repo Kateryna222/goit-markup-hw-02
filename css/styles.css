@@ -287,7 +287,7 @@ background-color: var(--primary-white-color);
   background-color: var(--title-text-color)
 }
 
-.footer-logo .link {
+footer .footer-logo .link {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 800;
