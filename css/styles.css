@@ -314,9 +314,17 @@ background-color: var(--primary-white-color);
 
 
  /* Hero-projects */
+ 
+ .filter-btn:hover,
+ .filter-btn:hover {
+ background-color: var(--change-color);
+ }
 
 
-.hero-btn-primary {
+
+
+
+ /* .hero-btn-primary {
 
   color: var(--accent-color);
   background-color: var(--backgound-Team-cloud);  
@@ -326,7 +334,7 @@ background-color: var(--primary-white-color);
 
   color: var(--accent-color);
   background-color: var(--backgound-Team-cloud);
-}
+} */
 
 
 /*   
