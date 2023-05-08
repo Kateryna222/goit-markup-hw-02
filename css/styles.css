@@ -336,10 +336,17 @@ background-color: var(--primary-white-color);
  }
 
 .item-link {
-  text-decoration: none
+  text-decoration: none;
 }
 
+.section-title-projects {
+font-weight: 500;
+font-size: 20px;
+line-height: 1,2;
+letter-spacing: 0.02em;
+color: var(--title-text-color)
 
+}
 
 
 
