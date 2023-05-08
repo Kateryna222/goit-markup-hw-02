@@ -330,12 +330,12 @@ background-color: var(--primary-white-color);
  }
 
  .filter-btn:hover,
- .filter-btn:hover {
+ .filter-btn:focus {
   color: var(--primary-white-color);
    background-color: var(--change-color);
  }
 
-.item-link {
+.item {
   text-decoration: none;
 }
 
