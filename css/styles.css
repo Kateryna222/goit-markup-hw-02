@@ -315,26 +315,37 @@ background-color: var(--primary-white-color);
 
  /* Hero-projects */
  
- .filter-btn:hover,
- .filter-btn:hover {
- background-color: var(--change-color);
- }
-
-
-
-
-
- /* .hero-btn-primary {
-
-  color: var(--accent-color);
-  background-color: var(--backgound-Team-cloud);  
-}
-
-.hero-btn-secondary {
-
+ .filter-btn {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1,5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
   color: var(--accent-color);
   background-color: var(--backgound-Team-cloud);
-} */
+
+ }
+
+ .filter-btn:hover,
+ .filter-btn:hover {
+  color: var(--primary-white-color);
+   background-color: var(--change-color);
+ }
+
+.item-link {
+  text-decoration: none
+}
+
+
+
+
+
+
+
+
 
 
 /*   
