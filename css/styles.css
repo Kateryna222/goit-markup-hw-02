@@ -115,9 +115,9 @@ line-height: 1.5;
   color: var(--change-color)
 }
 
-/* ul {
+ul {
   list-style: none;
-} */
+}
 
 
 button {
@@ -315,7 +315,12 @@ background-color: var(--primary-white-color);
 
  /* Hero-projects */
  
- .filter-btn {
+
+ .hero-btn .hero-btn {
+ text-align: center;
+}
+
+ /* .filter-btn {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -332,8 +337,8 @@ background-color: var(--primary-white-color);
  .filter-btn:hover,
  .filter-btn:focus {
   color: var(--primary-white-color);
-   background-color: var(--change-color);
- }
+  background-color: var(--change-color);
+ } */
 
 .item {
   text-decoration: none;
