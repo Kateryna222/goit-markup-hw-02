@@ -329,8 +329,9 @@ background-color: var(--primary-white-color);
   text-decoration: none;
 }
 
-.item link {
-
+.item .text {
+  line-height: 1.5
+  color: var(var(--primary-text-color))
 }
 /* 
 .section-title-projects {
