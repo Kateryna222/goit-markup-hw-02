@@ -182,15 +182,11 @@ background-color: var(--primary-white-color);
   line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
-  color: var(--accent-color);
-  background-color: var(--backgound-Team-cloud)
-
-.hero-btn:hover,
-.hero-btn:focus {
-  color: var(--primary-white-color);
-  background-color: var(--change-color);
   cursor: pointer; 
+  color: var(--primary-white-color);
+  background-color: var(--accent-color)
 }
+
 
 .section-title {
   color: var(--title-text-color);
@@ -213,11 +209,9 @@ background-color: var(--primary-white-color);
 
 /* Feature */
 
-
 .feature-list .text {
   color: var(--primary-text-color);
   line-height: 1.5;
-  text-align: center;
   }
 
 
@@ -234,9 +228,6 @@ background-color: var(--primary-white-color);
   list-style: none;
   }
 
-  /* .about-gallery-img {
-    
-  } */
 
 /* our team */
 .section-team {
@@ -255,8 +246,13 @@ background-color: var(--primary-white-color);
 } 
 
 
+.team .title {
+  line-height: 1.2;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
 .team .text {
-  
   line-height: 1.5;
   text-align: center;
   color: var(--primary-text-color);
@@ -305,7 +301,7 @@ background-color: var(--primary-white-color);
  text-align: center;
 }
 
- /* .filter-btn {
+ .filter-btn {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -323,7 +319,7 @@ background-color: var(--primary-white-color);
  .filter-btn:focus {
   color: var(--primary-white-color);
   background-color: var(--change-color);
- } */
+ }
 
 .item {
   text-decoration: none;
@@ -352,23 +348,6 @@ color: var(--title-text-color)
   background-color: var(--primary-text-color);
 } */
 
-
-
-
-
-/* .button .botton.primary {
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);
-  
-}
-
-
-.botton .button.secondary {
-  color: var(--accent-color);
-  background-color: var(--primary-white-color);
-} */
-*/
-
 /* 
 * {
   box-sizing: border-box;
@@ -387,10 +366,5 @@ color: var(--title-text-color)
   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
-*/
+*/ 
 
-/*
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-/* identical to box height, or 120% */
