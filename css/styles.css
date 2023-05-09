@@ -48,7 +48,7 @@ button {
   cursor: pointer;
 }
 
-.header {
+/* .header {
 font-family: "Raleway", sans-serif;
 font-style: normal;
 font-weight: 800;
@@ -57,7 +57,7 @@ line-height: 1.17;
 align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-}
+} */
 
 .header-logo {
 font-family: "Raleway", sans-serif;
@@ -65,6 +65,7 @@ font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
+text-transform: uppercase;
 text-decoration: none;
 color: var(--accent-color);
 }
@@ -86,7 +87,7 @@ color: var(--accent-color);
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--title-text-color);
+  color: var(--ee-text-color);
 }
 
 .header-adress {
@@ -148,11 +149,11 @@ button {
 }
 
 .header-link {
-  color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--title-text-color);
 }
 
 .header-link:hover,
