@@ -182,10 +182,8 @@ background-color: var(--primary-white-color);
   line-height: 1.5;
   align-items: center;
   letter-spacing: 0.04em;
-  color: var(--primary-white-color);
-  background-color: var(--accent-color);  
-}
-
+  color: var(--accent-color);
+  background-color: var(--backgound-Team-cloud)
 
 .hero-btn:hover,
 .hero-btn:focus {
