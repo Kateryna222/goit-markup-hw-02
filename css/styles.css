@@ -334,7 +334,7 @@ color: var(--title-text-color);
 
 .menu-link .text {
   line-height: 1.5;
-  color: (var(--primary-text-color));
+  color: var(--primary-text-color));
 }
 
 
