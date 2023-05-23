@@ -281,10 +281,11 @@ background-color: var(--primary-white-color);
 /* ================= HERO ================= */
 
 .hero-oder {
- 
+ padding-top: 188px;
+ padding-bottom: 188px;
  position: absolute;
- max-width: 496px;
- height: 120px;
+ width: 1440px;
+ height: 600px;
  left: 0px;
  top: 72px;
  list-style: none;
@@ -292,8 +293,7 @@ background-color: var(--primary-white-color);
  }
 
 .hero-title {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  max-width: 496px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
