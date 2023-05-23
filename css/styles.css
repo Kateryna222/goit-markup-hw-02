@@ -98,13 +98,14 @@ body {
     */
  
 .hero-btn {
-  min-width: 105px;
+  min-width: 169px;
+  height: 56px;
   padding: 16px 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
   border-radius: 4px;
   position: absolute;
-
-  height: 24px;
+  
   font-family: var(--main-font-family);
   font-style: normal;
   font-weight: 500;
@@ -279,11 +280,11 @@ background-color: var(--primary-white-color);
 
 /* ================= HERO ================= */
 
-
 .hero-oder {
+ 
  position: absolute;
- width: 1440px;
- height: 600px;
+ max-width: 496px;
+ height: 120px;
  left: 0px;
  top: 72px;
  list-style: none;
@@ -291,6 +292,8 @@ background-color: var(--primary-white-color);
  }
 
 .hero-title {
+  padding-top: 188px;
+  padding-bottom: 188px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
