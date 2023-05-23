@@ -195,11 +195,6 @@ border-top: none;
   background-color: var(--primary-white-color);
   }
 
-.menu {
-  display: flex;
-  gap: 70px;
-}
-
 
 .header-logo {
   
@@ -234,6 +229,8 @@ border-top: none;
 
 
 .menu-item {
+  display: flex;
+  gap: 70px;
   color: var(--title-text-color);
   letter-spacing: 0.02em;
 }
@@ -255,12 +252,9 @@ background-color: var(--primary-white-color);
 }
 
 
- .header-adress {
+.header-contacts {
   display: flex;
   gap: 40px;
-}
-
-.header-contacts {
   color: var(--primary-text-color);  
 }  
   
