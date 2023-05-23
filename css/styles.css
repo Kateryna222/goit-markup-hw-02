@@ -70,7 +70,7 @@ body {
 }
 
 .container {
-  width: 1440px;
+  width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -183,6 +183,9 @@ align-items: center;
 .page-header-container {
   display: flex;
   align-items: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
+
 }
 
 .page-navigation {
@@ -194,7 +197,8 @@ align-items: center;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
-  color: var(--title-text-color);} 
+  color: var(--title-text-color);
+} 
   
 
 .page-navigation:hover,
