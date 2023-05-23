@@ -230,7 +230,7 @@ border-top: none;
 .header-asdress-list {
   display: flex;
   gap: 40px;
-
+margin-left: 332px;
 }
 
 .menu {
