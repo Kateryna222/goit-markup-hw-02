@@ -327,6 +327,9 @@ background-color: var(--primary-white-color);
 
 /* ================= Feature ================= */
 
+.section-feature {
+padding: 120px 120px;
+}
 
 .feature-list {
   display: flex;
