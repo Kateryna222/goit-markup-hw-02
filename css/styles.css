@@ -69,12 +69,11 @@ body {
 }
 
 .container {
-  width: 1440px;
-  height: 72px;
+  width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  /* padding-left: 15px;
-  padding-right: 15px; */
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .section {
@@ -169,6 +168,7 @@ border-top: none;
 .page-header {
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #e7e9fc;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -179,6 +179,7 @@ border-top: none;
 
 .page-navigation {
   display: flex;
+  align-items: center; 
   column-gap: 70px;
   font-weight: 500;
   font-size: 16px;
@@ -196,10 +197,13 @@ border-top: none;
 
 .menu {
   display: flex;
-  column-gap: 70px;}
+  gap: 70px;
+}
 
 
 .header-logo {
+  
+  margin-right: 76px;
   font-family: var(--secondary-font-family);
   font-weight: 800;
   font-size: 18px;
@@ -235,6 +239,8 @@ border-top: none;
 }
 
 .menu-link {
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -250,8 +256,8 @@ background-color: var(--primary-white-color);
 
 
  .header-adress {
-  margin-left: auto;
-  margin-right: 40px; 
+  display: flex;
+  gap: 40px;
 }
 
 .header-contacts {
