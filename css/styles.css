@@ -328,16 +328,23 @@ background-color: var(--primary-white-color);
 /* ================= Feature ================= */
 
 .section-feature {
-padding: 120px 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  
 }
+/* .section-title-strategy {
+  visually: hidden;
+} */
 
 .feature-list {
   display: flex;
   align-items: flex-start;
   padding: 0px;
-  gap: 8px;
-  fl
+  gap: 24px;
 
+}
+.feature-list .item {
+  width: calc((100% - 72px) / 4);
 }
 
 .feature-list .text {
