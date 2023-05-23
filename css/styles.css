@@ -227,6 +227,17 @@ border-top: none;
   color: var(--title-text-color);
 }
 
+.header-asdress-list {
+  display: flex;
+  gap: 40px;
+
+}
+
+.menu {
+  display: flex;
+  gap: 40px;
+
+}
 
 .menu-item {
   display: flex;
