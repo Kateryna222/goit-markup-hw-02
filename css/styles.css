@@ -27,9 +27,7 @@
   list-style: none;
 }
 
-
-.link {
-text-decoration: none;  
+90-
 }
 
 button {
@@ -164,11 +162,10 @@ padding-bottom: 32px;
 border: 1px solid var(--border-line);
 border-top: none;
 }
-
-.visually-hidden {
-  position: fixed;
-  transform: scale(0);
+.hidden {
+  display: none
 }
+
 /* ================= /COMPONENTS ================= */
 
 
@@ -286,6 +283,7 @@ background-color: var(--primary-white-color);
   display: flex;
   gap: 40px;
   color: var(--primary-text-color);  
+  text-decoration: none;
 }  
   
 .header-contacts:hover,
@@ -337,7 +335,7 @@ background-color: var(--primary-white-color);
     line-height: 1.2;
     list-style: none;
     letter-spacing: 0.02em;
-    color: var(--title-text-color);
+ =   color: var(--title-text-color);
   }
 
 
@@ -446,7 +444,7 @@ background-color: var(--primary-white-color);
 
 .team .title {
   margin-bottom: 8px;
-  line-height: 1.2;
+  line-height: 1.2;'"'
   text-align: center;
   color: var(--title-text-color);
 }
@@ -460,7 +458,6 @@ background-color: var(--primary-white-color);
 /* =================  /our team  ================= */
  
 /* =================  footer  ================= */
-
 .footer {
 
   padding-top: 100px; 
@@ -528,7 +525,7 @@ color: var(--title-text-color);
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px; 
-
+ 
 }
 
 .menu-item-portfolio {
