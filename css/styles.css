@@ -456,42 +456,10 @@ background-color: var(--primary-white-color);
 }
 
 /* =================  /our team  ================= */
- 
-/* =================  footer  ================= */
-.footer {
 
-  padding-top: 100px; 
-  padding-bottom: 100px;
-  background-color: var(--title-text-color);
-}
+/* =================  portfolio  ================= */
 
-.footer-logo {
-  display: inline-block;
-  margin-bottom: 16px;
-  font-family: var(--secondary-font-family);
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase; 
-  text-decoration: none;
-  color: var(--accent-color);
-
-}
-
-.footer-logo-second {
-  color: var(--backgound-Team-cloud);
-} 
-
-.footer-text {
-  max-width: 264px;
-  color: var(--backgound-Team-cloud);
- }
-
- 
- /* Hero-projects */
+/* Hero-projects */
  
 .hero-filter {
   display: flex; 
@@ -528,7 +496,7 @@ color: var(--title-text-color);
  
 }
 
-.menu-item-portfolio {
+.portfolio-list .menu-item-portfolio {
   width: calc((100% - 48px) / 3);
 }
 
@@ -553,6 +521,44 @@ color: var(--title-text-color);
 
 
 
+
+/* =================  /portfolio  ================= */
+ 
+/* =================  footer  ================= */
+.footer {
+
+  padding-top: 100px; 
+  padding-bottom: 100px;
+  background-color: var(--title-text-color);
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+  font-family: var(--secondary-font-family);
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase; 
+  text-decoration: none;
+  color: var(--accent-color);
+
+}
+
+.footer-logo-second {
+  color: var(--backgound-Team-cloud);
+} 
+
+.footer-text {
+  max-width: 264px;
+  color: var(--backgound-Team-cloud);
+ }
+
+ 
+ 
 
 /* ______________________________________ */
 /* 
