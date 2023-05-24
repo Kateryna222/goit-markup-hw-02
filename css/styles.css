@@ -182,9 +182,12 @@ align-items: center;
 }
 .page-header-container {
   display: flex;
+  width: 1158px;  
   align-items: center;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  /* padding-top: 188px;
+  padding-bottom: 188px; */
+  border-bottom: 1px solid #e7e9fc
+
 
 }
 
@@ -274,6 +277,7 @@ background-color: var(--primary-white-color);
   display: flex;
   gap: 40px;
   margin-left: 332px;
+
 }
  .header-contacts {
   display: flex;
@@ -290,7 +294,8 @@ background-color: var(--primary-white-color);
 
 /* ================= HERO ================= */
 
-.hero-oder-container {
+
+.hero-oder {
  padding-top: 188px;
  padding-bottom: 188px;
  position: absolute;
@@ -365,15 +370,21 @@ background-color: var(--primary-white-color);
 
 /* ================= projects ================= */
 
-.hero-projects-container {
+.hero-projects {
   padding-top: 96px; 
   padding-bottom: 120px;
+}
+
+.hero-projects-container {
+
   display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
 
 }
+
+
 
 .section-projects {
   padding-bottom: 120px;
@@ -389,6 +400,7 @@ background-color: var(--primary-white-color);
   align-items: flex-start;
   padding: 0px;
   list-style: none;
+  width: calc((100% - 48px) / 3);
   } 
 
 .section-projects .item {
@@ -480,35 +492,18 @@ background-color: var(--primary-white-color);
  
  /* Hero-projects */
  
+.hero-filter {
+  display: flex; 
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px; 
 
- .hero-btn .hero-btn {
- text-align: center;
 }
-/* 
- .filter-btn {
-  font-family: var(--main-font-family);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: var(--accent-color);
-  background-color: var(--backgound-Team-cloud);
 
- }
 
- .filter-btn:hover,
- .filter-btn:focus {
-  color: var(--primary-white-color);
-  background-color: var(--change-color);
- } */
-
-.item {
+.hero-item {
   text-decoration: none;
 }
-
 
 .menu-link .section-title-projects {
 font-weight: 500;
@@ -529,11 +524,9 @@ color: var(--title-text-color);
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px; 
-}
-
-.menu-item-portfolio {
   width: calc((100% - 48px) / 3);
 }
+
 
 .menu-link-portfolio {
   padding: 32px 16px;
@@ -542,6 +535,40 @@ color: var(--title-text-color);
   margin-bottom: 8px; 
 }
 
+.menu-link-text-content{
+  padding: 32px 16px;
+
+}
+
+
+
+
+
+
+
+
+
+/* ______________________________________ */
+/* 
+ .filter-btn {
+  font-family: var(--main-font-family);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--accent-color);
+  background-color: var(--backgound-Team-cloud);
+
+ }
+
+ .filter-btn:hover,
+ .filter-btn:focus {
+  color: var(--primary-white-color);
+  background-color: var(--change-color);
+ } */
 /* .header {
 font-family: var(--secondary-font-family);
 font-style: normal;
