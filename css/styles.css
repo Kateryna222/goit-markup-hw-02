@@ -335,16 +335,15 @@ margin-top: 120px;
 margin-left: 156px;
 max-width: 1128px;
 height: 104px;
-  /* padding-top: 120px;
-  padding-bottom: 120px; */
+
 }
-/* }
+
 .section-feature-container {
   top: 792px;
   left: 156px;
   width: 1128px;
   height: 104px;
-} */
+} 
 
 
 .feature-list {
@@ -377,7 +376,14 @@ height: 104px;
 }
 
 .section-title {
-  color: var(--title-text-color);
+font-family: var(--main-font-family);
+text-align: center;
+Font style: Bold;
+Font size: 36px;
+Line height: 1.11;
+Letter spacing: 0.02;
+color: var(--title-text-color);
+
 }
   
 .projects-list {
@@ -394,8 +400,7 @@ height: 104px;
   width: calc((100% - 48px) / 3);
 }
 /* ================= /projects ================= */
-/* 
-.section-title {
+section-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -413,7 +418,7 @@ height: 104px;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
-  } */
+  }
 
 /* =================  our team  ================= */
 
