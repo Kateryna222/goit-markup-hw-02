@@ -103,9 +103,8 @@ body {
 }
 /* ================= COMPONENTS ================= */
 
-/* button*/
 
-/* 
+
 .button {
   font-weight: 500;
   align-items: center;
@@ -114,7 +113,6 @@ body {
   color: var(--accent-color);
   background-color: var(--primary-white-color);
   }
-    */
  
 .hero-btn {
   min-width: 169px;
@@ -124,6 +122,7 @@ body {
   border: none;
   border-radius: 4px;
   position: absolute; 
+  cursor: pointer;
   font-family: var(--main-font-family);
   font-style: normal;
   font-weight: 500;
@@ -132,12 +131,12 @@ body {
   align-items: center;
   letter-spacing: 0.04em;
   color: var(--primary-white-color);
-  background-color: var(--accent-color)
+  background-color: var(--accent-color);
 }
 
 .hero-btn:hover,
 .hero-btn:focus {;
-  background-color: var(--change-color)
+  background-color: var(--change-color);
 }
 
 
@@ -172,9 +171,11 @@ padding-bottom: 32px;
 border: 1px solid var(--border-line);
 border-top: none;
 }
-.hidden {
-  display: none;
+
+.section-title {
+  margin-bottom: 72px;
 }
+
 
 /* ================= /COMPONENTS ================= */
 
@@ -295,7 +296,7 @@ background-color: var(--primary-white-color);
   
 .header-contacts:hover,
 .header-contacts:focus {
-  color: var(--change-color)
+  color: var(--change-color);
   }
 
 /* ================= /HEADER ================= */
@@ -391,12 +392,11 @@ background-color: var(--primary-white-color);
   justify-content: center;
 }
 
-.section-projects >.section-title { 
-  margin-bottom: 72px;
+.section-title {
   color: var(--title-text-color);
-  }
+}
   
-.section-projects >.projects {
+.projects-list {
   display: flex;
   gap: 24px;
   align-items: flex-start;
@@ -404,7 +404,7 @@ background-color: var(--primary-white-color);
   list-style: none;
   } 
 
-.section-projects >.item {
+.projects-list >.item {
   color: var(--primary-text-color);
   list-style: none;
   width: calc((100% - 48px) / 3)
@@ -419,21 +419,21 @@ background-color: var(--primary-white-color);
   background-color: var(--backgound-Team-cloud);
  }
 
- .section-team >.team {
+ .team-list {
     display: flex;
     Padding: 0px, 0px, 32px, 0px;
     Gap: 24px;
   }  
 
   .section-team >.section-title {
-  margin-bottom: 72px;
+
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   color: var(--title-text-color);
 }
  
-.team >.item {
+.team-list >.item {
   border-radius: 0px 0px 4px 4px;
   background-color: var(--primary-white-color);
 } 
@@ -442,14 +442,14 @@ background-color: var(--primary-white-color);
   padding: 32px 16px;
 }
 
-.team .title {
+.team-item-content .title {
   margin-bottom: 8px;
   line-height: 1.2;
   text-align: center;
   color: var(--title-text-color);
 }
 
-.team .text {
+.team-item-content .text {
   line-height: 1.5;
   text-align: center;
   color: var(--primary-text-color);
