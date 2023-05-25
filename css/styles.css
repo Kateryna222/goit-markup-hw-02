@@ -28,11 +28,10 @@
 }
 
 .link {
-
 }
 
 
-button {
+.button {
   cursor: pointer;
 }
 
@@ -52,7 +51,6 @@ ol {
   margin-bottom: 0;
   padding-left: 0;
 }
-
 
 img {
   display: block;
@@ -81,13 +79,11 @@ body {
   padding-top: 120px;
   padding-bottom: 120px;
 } 
-
-
+/* 
 .item {
   flex-basis: calc((100% - 72px) / 3);
-  }
+  } */
 
- 
 .title{
   margin-bottom: 8px; 
 }
@@ -155,7 +151,6 @@ body {
   background-color: var(--change-color);
  }
 
- 
 
 .menu-link-text-content {
 padding-top: 32px;
@@ -174,6 +169,7 @@ border-top: none;
 /* ================= HEADER ================= */
 .page-header {
 height: 72px;
+width: 1158px;
 display: flex;  
 align-items: center;
 border-bottom: 1px solid #e7e9fc;
@@ -184,7 +180,6 @@ padding-bottom: 188px;
 
 .page-header-container {
   display: flex;
-  /* width: 1158px;   */
   align-items: center;
 
 
@@ -271,7 +266,6 @@ color: var(--change-color);
 background-color: var(--primary-white-color);
 }
 
-
 .header-asdress-list {
   display: flex;
   gap: 40px;
@@ -293,16 +287,13 @@ background-color: var(--primary-white-color);
 /* ================= /HEADER ================= */
 
 /* ================= HERO ================= */
-
-
 .hero-oder {
-  display: flex;
-  align-items: center;
-  padding-top: 188px;
+ display: flex;
+ align-items: center;
+ padding-top: 188px;
  padding-bottom: 188px;
  position: absolute;
  height: 600px;
- left: 0px;
  top: 72px;
  list-style: none;
  background-color: var(--title-text-color);
@@ -324,7 +315,6 @@ background-color: var(--primary-white-color);
   color: var(--primary-white-color);
 }
 
-
 .section-title {
   color: var(--title-text-color);
   font-weight: 700;
@@ -344,8 +334,6 @@ background-color: var(--primary-white-color);
     letter-spacing: 0.02em;
     color: var(--title-text-color);
   }
-
-
 /* ================= /HERO ================= */
 
 
@@ -354,9 +342,9 @@ background-color: var(--primary-white-color);
 .section-feature {
   width: 1128px;
   height: 104px;
+  top:792px;
   left: 156px;
-  top: 792px;
-  position: absolute;
+  
 }
 /* .section-feature-container {
   padding-top: 120px;
@@ -369,7 +357,6 @@ background-color: var(--primary-white-color);
 } */
 
 .feature-list {
-  
   display: flex;
   align-items: flex-start;
   padding: 0px;
@@ -387,31 +374,34 @@ background-color: var(--primary-white-color);
 
 /* ================= projects ================= */
 
+.section-projects {
+  width: 1128px;
+  height: 412px;
+  top: 1016px;
+  left: 156px;
+}
+
 .hero-projects {
   padding-top: 96px; 
   padding-bottom: 120px;
 }
 
 .hero-projects-container {
-
   display: flex;
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px;
-
 }
-
-
 
 .section-projects {
   padding-bottom: 120px;
   }
 
-.section-projects .section-title { 
+.section-projects >.section-title { 
   margin-bottom: 72px;
   color: var(--title-text-color);
   }
-.section-projects .projects {
+.section-projects >.projects {
   display: flex;
   gap: 24px;
   align-items: flex-start;
@@ -419,12 +409,11 @@ background-color: var(--primary-white-color);
   list-style: none;
   } 
 
-.section-projects .item {
+.section-projects >.item {
   color: var(--primary-text-color);
   list-style: none;
   width: calc((100% - 48px) / 3)
-
-  }
+}
 /* ================= /projects ================= */
 
 /* =================  our team  ================= */
@@ -433,15 +422,15 @@ background-color: var(--primary-white-color);
   padding-top: 120px; 
   padding-bottom: 120px;
   background-color: var(--backgound-Team-cloud);
+ }
 
-  }
-  .team {
+ .section-team >.team {
     display: flex;
     Padding: 0px, 0px, 32px, 0px;
     Gap: 24px;
   }  
 
-  .section-team .section-title {
+  .section-team >.section-title {
   margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
@@ -449,7 +438,7 @@ background-color: var(--primary-white-color);
   color: var(--title-text-color);
 }
  
-.team .item {
+.team >.item {
   border-radius: 0px 0px 4px 4px;
   background-color: var(--primary-white-color);
 } 
@@ -460,7 +449,7 @@ background-color: var(--primary-white-color);
 
 .team .title {
   margin-bottom: 8px;
-  line-height: 1.2;'"'
+  line-height: 1.2;
   text-align: center;
   color: var(--title-text-color);
 }
@@ -470,7 +459,7 @@ background-color: var(--primary-white-color);
   text-align: center;
   color: var(--primary-text-color);
 }
-
+ 
 /* =================  /our team  ================= */
 
 /* =================  portfolio  ================= */
@@ -482,7 +471,6 @@ background-color: var(--primary-white-color);
   justify-content: center;
   gap: 24px;
   margin-bottom: 72px; 
-
 }
 
 
@@ -509,8 +497,7 @@ color: var(--title-text-color);
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px; 
- 
-}
+ }
 
 .portfolio-list .menu-item-portfolio {
   width: calc((100% - 48px) / 3);
@@ -520,23 +507,15 @@ color: var(--title-text-color);
   padding: 32px 16px;
   border: 1px solid var(--border-line)
   border-top: none; 
-
 }
 
 .menu-link-text-content {
   padding: 32px 16px;
-
 }
 
 .section-title-projects {
   margin-bottom: 8px
 }
-
-
-
-
-
-
 
 /* =================  /portfolio  ================= */
  
@@ -560,7 +539,7 @@ color: var(--title-text-color);
   letter-spacing: 0.03em;
   text-transform: uppercase; 
   text-decoration: none;
-  color: var(--accent-color);
+ color: var(--accent-color);
 
 }
 
@@ -575,63 +554,3 @@ color: var(--title-text-color);
 
  
  
-
-/* ______________________________________ */
-/* 
- .filter-btn {
-  font-family: var(--main-font-family);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.04em;
-  color: var(--accent-color);
-  background-color: var(--backgound-Team-cloud);
-
- }
-
- .filter-btn:hover,
- .filter-btn:focus {
-  color: var(--primary-white-color);
-  background-color: var(--change-color);
- } */
-/* .header {
-font-family: var(--secondary-font-family);
-font-style: normal;
-font-weight: 800;
-font-size: 18px;
-line-height: 1.17;
-align-items: center;
-letter-spacing: 0.03em;
-text-transform: uppercase;
-} */
-
-/*   
- }
-#description {
-  color: var(--primary-white-color) ;
-  background-color: var(--primary-text-color);
-} */
-
-/* 
-* {
-  box-sizing: border-box;
-}
-
-
-.menu {
-  display: flex;
-  gap: 8px;
-  
-  padding: 15px;
-  margin: 0;
-  list-style: none;
-  border-radius: 4px;
-  background-color: #2196f3;
-  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
-    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-}
-*/ 
-
