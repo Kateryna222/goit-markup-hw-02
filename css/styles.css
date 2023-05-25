@@ -407,7 +407,7 @@ background-color: var(--primary-white-color);
 .projects-list >.item {
   color: var(--primary-text-color);
   list-style: none;
-  width: calc((100% - 48px) / 3)
+  width: calc((100% - 48px) / 3);
 }
 /* ================= /projects ================= */
 
@@ -426,7 +426,6 @@ background-color: var(--primary-white-color);
   }  
 
   .section-team >.section-title {
-
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -436,6 +435,7 @@ background-color: var(--primary-white-color);
 .team-list >.item {
   border-radius: 0px 0px 4px 4px;
   background-color: var(--primary-white-color);
+  width: calc((100% - 72px) / 4);
 } 
 
 .team-item-content {
@@ -494,7 +494,7 @@ color: var(--title-text-color);
   row-gap: 48px; 
  }
 
-.portfolio-list .menu-item-portfolio {
+.menu-item-portfolio {
   width: calc((100% - 48px) / 3);
 }
 
