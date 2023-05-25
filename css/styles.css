@@ -84,7 +84,7 @@ body {
   flex-basis: calc((100% - 72px) / 3);
   }
 
-.title{
+.title {
   margin-bottom: 8px; 
 }
 
@@ -358,6 +358,8 @@ background-color: var(--primary-white-color);
   height: 104px;
   top:792px;
   left: 156px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   
 }
 /* .section-feature-container {
