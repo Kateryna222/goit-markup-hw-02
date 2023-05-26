@@ -189,9 +189,7 @@ border-top: none;
 .page-header {
   width: 1440px;
   height: 72px;
-/* display: flex;  
-align-items: center; */
-border-bottom: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
 } 
 
 .page-header-container {
@@ -219,7 +217,6 @@ border-bottom: 1px solid #e7e9fc;
 
 
 .header-logo {
-  
   margin-right: 76px;
   font-family: var(--secondary-font-family);
   font-weight: 800;
@@ -233,8 +230,8 @@ border-bottom: 1px solid #e7e9fc;
 
 .header-logo:hover,
 .header-logo:focus {
-    color: var(--change-color);
-    }
+  color: var(--change-color);
+  }
 
 
 .header-logo-second {
@@ -318,8 +315,6 @@ background-color: var(--primary-white-color);
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--primary-white-color);
-
-
 }
 /* ================= /HERO ================= */
 
@@ -372,7 +367,6 @@ Font size: 36px;
 Line height: 1.11;
 Letter spacing: 0.02;
 color: var(--title-text-color);
-
 }
   
 .projects-list {
@@ -389,7 +383,8 @@ color: var(--title-text-color);
   width: calc((100% - 48px) / 3);
 }
 /* ================= /projects ================= */
-section-title {
+
+.section-title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
@@ -399,7 +394,7 @@ section-title {
   text-transform: capitalize;   
   }
 
-  .team .title {
+.team .title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -423,7 +418,7 @@ section-title {
     Gap: 24px;
   }  
 
-  .section-team >.section-title {
+.section-team >.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -463,12 +458,11 @@ section-title {
   padding-bottom: 120px;
 }
 
-
 .hero-projects-container {
   display: flex;
   justify-content: center;
-  gap: 24px;
-  
+  gap: 24px;  
+
 }
 
 .hero-filter {
