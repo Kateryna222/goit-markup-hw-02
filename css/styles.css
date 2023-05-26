@@ -113,16 +113,19 @@ body {
   letter-spacing: 0.04em;
   color: var(--accent-color);
   background-color: var(--primary-white-color);
-  }
+
+}
  
 .hero-btn {
   min-width: 169px;
   height: 56px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 16px 32px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
   border-radius: 4px;
-  position: absolute; 
+  /* position: absolute;  */
   cursor: pointer;
   font-family: var(--main-font-family);
   font-style: normal;
@@ -306,9 +309,11 @@ background-color: var(--primary-white-color);
 }
  
 .hero-title {
-  max-width: 496px;
+  max-width: 496px; 
   margin-left: auto;
   margin-right: auto;
+  font-family: var(--main-font-family);
+  font-weight: 700;
   font-size: 56px;
   line-height: 1.17;
   letter-spacing: 0.02em;
@@ -362,7 +367,7 @@ padding: 120px 0;
 .section-title {
 font-family: var(--main-font-family);
 text-align: center;
-Font style: Bold;
+Font style: 700;
 Font size: 36px;
 Line height: 1.11;
 Letter spacing: 0.02;
