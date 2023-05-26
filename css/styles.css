@@ -117,6 +117,7 @@ body {
 }
  
 .hero-btn {
+  display: block;
   min-width: 169px;
   height: 56px;
   margin-left: auto;
@@ -179,8 +180,6 @@ border-top: none;
 .section-title {
   margin-bottom: 72px;
 }
-
-
 /* ================= /COMPONENTS ================= */
 
 
@@ -456,12 +455,12 @@ color: var(--title-text-color);
 .hero-projects {
   padding-top: 96px;
   padding-bottom: 120px;
-}
+/* }
 
 .hero-projects-container {
   display: flex;
   justify-content: center;
-  gap: 24px;  
+  gap: 24px;   */
 
 }
 
@@ -503,7 +502,6 @@ color: var(--title-text-color);
 }
 
 .menu-link-portfolio {
-  padding: 32px 16px;
   border: 1px solid var(--border-line);
   border-top: none; 
 }
