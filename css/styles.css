@@ -28,6 +28,7 @@
 }
 
 .link {
+  text-decoration: none;
 }
 
 
@@ -68,7 +69,7 @@ body {
 }
 
 .container {
-  width: 1440px;
+  width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -194,14 +195,11 @@ border-bottom: 1px solid #e7e9fc;
 
   display: flex;
   align-items: center;
-
-
 }
 
 .page-navigation {
   display: flex;
   align-items: center; 
-  column-gap: 70px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -210,10 +208,9 @@ border-bottom: 1px solid #e7e9fc;
   color: var(--title-text-color);
 } 
   
-
 .page-navigation:hover,
 .page-navigation:focus {
-  color: var(--change-color);
+  color: var(--changecolor);
   background-color: var(--primary-white-color);
   }
 
@@ -289,7 +286,7 @@ background-color: var(--primary-white-color);
   display: flex;
   gap: 40px;
   color: var(--primary-text-color);  
-  text-decoration: none;
+  font-style: normal;
 }  
   
 .header-contacts:hover,
@@ -301,25 +298,19 @@ background-color: var(--primary-white-color);
 
 /* ================= HERO ================= */
 .hero-oder {
- width: 1440px;
- height: 600px;
+
  align-items: center;
  padding-top: 188px;
- padding-bottom: 292px;
+ padding-bottom: 188px;
  background-color: var(--title-text-color);
-
- }
-
+}
+ 
 .hero-title {
   max-width: 496px;
-  /* padding-top: 188px;
-  padding-bottom: 292px; */
-  padding-left: 472px;
-  /* padding-right: 472px; */
+  margin-left: auto;
+  margin-right: auto;
   font-size: 56px;
-  /* position: absolute; */
   line-height: 1.17;
-  text-align: center;
   letter-spacing: 0.02em;
   color: var(--primary-white-color);
 
@@ -331,11 +322,7 @@ background-color: var(--primary-white-color);
 /* ================= Feature ================= */
 
 .section-feature {
-margin-top: 120px;
-margin-left: 156px;
-max-width: 1128px;
-height: 104px;
-
+padding: 120px 0;
 }
 
 .section-feature-container {
@@ -365,11 +352,8 @@ height: 104px;
 /* ================= projects ================= */
 
 .section-projects {
-  padding-top: 96px; 
+  padding-top: 0; 
   padding-bottom: 120px;
-  margin-bottom: 72px;
-  width: 1128px;
-  height: 412px;
   top: 1016px;
   left: 156px;
   justify-content: center;
