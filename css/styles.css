@@ -458,7 +458,19 @@ section-title {
 /* =================  portfolio  ================= */
 
 /* Hero-projects */
- 
+.hero-projects {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+
+.hero-projects-container {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  
+}
+
 .hero-filter {
   display: flex; 
   justify-content: center;
@@ -511,12 +523,7 @@ color: var(--title-text-color);
 }
 
 
-.hero-projects-container {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
-  
-}
+
 
 /* =================  /portfolio  ================= */
  
