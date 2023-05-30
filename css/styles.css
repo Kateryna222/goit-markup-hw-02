@@ -470,7 +470,8 @@ background-color: var(--primary-white-color);
 .projects-text-content {
   padding: 32px 16px;
   border: 1px solid var(--border-line);
-  border-top: none; }
+  border-top: none;
+ }
 
   .section-title-projects {
 margin-bottom: 8px;
