@@ -454,7 +454,6 @@ padding: 120px 0;
 
  .projects-item {
   width: calc((100% - 48px) / 3);
-  border: 1px solid var(--border-line);
   border-top: none; 
 }
 
@@ -470,6 +469,7 @@ background-color: var(--primary-white-color);
 
 .projects-text-content {
   padding: 32px 16px;
+  border: 1px solid var(--border-line);
 }
 .section-title-projects {
 margin-bottom: 8px;
